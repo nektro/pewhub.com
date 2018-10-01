@@ -29,6 +29,8 @@ body {
         > div {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
             font-size: 14px;
 
             a {
@@ -58,6 +60,8 @@ body {
                 &:nth-child(2) {
                     display: flex;
                     flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
 
                     a {
                         flex-grow: 1;
